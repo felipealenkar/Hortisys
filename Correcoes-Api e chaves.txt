@@ -1,0 +1,22 @@
+corrigir e desativar leak de memoria no final
+Filtro de ativas, inativas, todas
+Resize na imagem
+TmrCuriosidade.Enabled := False; nos forms filhos
+Criar função pra abstrair aquele monte de 13 da imagem sem foto (Criar no datamodule já trazendo a imagem correta)
+
+
+API: Perenual
+Lista 30 por página: https://perenual.com/api/species-list?key=[KEY]&q=Solanum%20lycopersicum
+Individual: https://perenual.com/api/v2/species-list?key=[KEY]&q=[PLANTA]
+sk-0Fow69b4cf817f8d815442
+sk-iy5j69b5bddc34a6b15464
+
+Api: Trefle
+https://trefle.io/profile
+URL: https://trefle.io/api/v1/plants/search?q=[PLANTA AQUI]&token=[KEY]
+usr-ZIUEpJhXOFLUwkzjbVpzk-sWWbGiSoBZDDEFpZOayBM
+
+Gemini
+AIzaSyDI6YG2lGCQhakKHZ85Mvgm0x7O6FcUdWs
+
+OutputDebugString(PChar('Erro API Timer: ' + E.Message));
