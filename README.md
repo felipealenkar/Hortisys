@@ -26,6 +26,23 @@ Integração com APIs REST para busca de imagem da cultura na web.
 
 # Como rodar o projeto
 
-Instalar o PostgreSQL 18 x64 (Preferencialmente na porta 5433), caso queira utilizar outra porta faça a alteração da porta no arquivo Model.DbStart.pas
+Instalar o PostgreSQL 18 x64 na porta 5433, caso queira utilizar outra porta faça a alteração da porta no arquivo Model.DbStart.pas
 
-Rodar o arquivo exe contido na pasta Hortisys\Win32\Debug
+Rodar o arquivo exe contido na pasta \Hortisys\Win32\Debug
+
+# Estrutura de Pastas
+
+Hortisys\src\Controller: Mediação entre a lógica e a interface
+
+Hortisys\src\DataModule: Container de fotos
+
+Hortisys\src\Factory: Criador de instâncias
+
+Hortisys\src\Model: Entidades
+
+Hortisys\src\Repository: Classes que lidam com armazenamento
+
+Hortisys\src\Service: Executor de Operações, lógica e regras de negócio
+
+Hortisys\src\View: Telas
+
