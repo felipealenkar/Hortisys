@@ -1,6 +1,6 @@
 # Hortisys
 
-Sistema de gestão de horta
+Sistema de gestão de hortas
 
 # Tecnologias Utilizadas
 
