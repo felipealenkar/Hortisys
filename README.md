@@ -22,7 +22,7 @@ Cadastro e controle de manejos das culturas
 
 Geração de relatórios dos cadastros
 
-Integração com APIs REST para busca de imagem da cultura na web.
+Integração com APIs REST para busca de imagem da cultura na web. (Uso da Api do Gemini para identificação do nome correto caso o usuário cometa erros de gramática)
 
 # Como rodar o projeto
 
